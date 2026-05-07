@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-test-jenkins",
+  "version": "1.0.0",
+  "description": "Vue3 Monorepo Project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "preview": "pnpm -r preview",
+    "lint": "pnpm -r lint",
+    "type-check": "pnpm -r type-check"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/tsconfig": "^0.5.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0",
+    "vue": "^3.3.0",
+    "vue-tsc": "^1.8.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@monorepo/app-admin",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "big-integer": "^1.6.50",
+    "@monorepo/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/tsconfig": "^0.5.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.0"
+  }
+}
