@@ -9,6 +9,7 @@
         <li><router-link to="/dashboard">仪表板</router-link></li>
         <li><router-link to="/about">关于</router-link></li>
       </ul>
+      {{message}}
     </div>
     <router-view />
   </div>
